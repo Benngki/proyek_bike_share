@@ -18,7 +18,7 @@ def create_monthly_df(df):
 def create_season_df(df):
     return df.groupby("season").cnt.sum().sort_values(ascending=False).reset_index()
 
-day_df = pd.read_csv("data/cleaned_day.csv")
+day_df = pd.read_csv("data/all_data.csv")
 
 day_df['dteday'] = pd.to_datetime(day_df.dteday)
 day_df.sort_values(by="dteday", inplace=True)
