@@ -1,4 +1,5 @@
 # Proyek Bike Sharing
+[Demo](https://benngki-proyekbikeshare.streamlit.app/)
 ## Setup Environment
 ```
 conda create --name main-ds python=3.9
